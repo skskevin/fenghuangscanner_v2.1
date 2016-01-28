@@ -3,7 +3,7 @@
 fenghuangscanner_v2的升级版，在原来基础上新增3389弱口令探测功能<br>
 原链接：https://github.com/wilson9x1/fenghuangscanner_v2.git<br>
 
-需要安装工具Hydray(https://github.com/vanhauser-thc/thc-hydra)<br>
+需要安装工具Hydra(https://github.com/vanhauser-thc/thc-hydra)<br>
 
 运行方法：<br>
 
