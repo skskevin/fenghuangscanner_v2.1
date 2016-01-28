@@ -1,0 +1,13 @@
+MySQL-python
+pymssql
+impacket
+requests
+pysnmp
+pycrypto
+paramiko
+python-ldap
+pymongo
+psycopg2
+redis
+IPy
+THC-Hydra
