@@ -8,7 +8,7 @@ from subprocess import Popen, PIPE
 def rdp_connect(ip,username,password):
     crack =0
     try:
-        p=Popen(['/usr/bin/hydra','-l',username, '-p',password,ip,'rdp','-t 4' ],stdout=PIPE)
+        p=Popen(['hydra','-l',username, '-p',password,ip,'rdp','-t 4' ],stdout=PIPE)
 
         m = re.search(r'(\d)\svalid password[s]? found', p.stdout.read())
 
