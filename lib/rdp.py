@@ -17,7 +17,7 @@ def rdp_connect(ip,username,password):
                 crack=1
             else:
                 lock.acquire()
-                print "%s login fail (port:3389)" %(ip)
+                print "%s rdp's %s:%s login fail (port:3389)" % (ip,username,password)
                 lock.release()
                 crack=2
         except Exception,e:
