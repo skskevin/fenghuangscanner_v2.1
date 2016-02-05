@@ -39,7 +39,7 @@ def rdp_1(ip,port):
                 password=data.split(':')[1]
                 flag=rdp_connect(ip,username,password)
                 if flag==2:
-                    break
+                    continue
 
                 if flag==1:
                     lock.acquire()
